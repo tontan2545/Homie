@@ -6,7 +6,8 @@
     "paths": {
       "@components/*": ["src/components/*"],
       "@routes/*": ["src/routes/*"],
-      "@views/*": ["src/views/*"]
+      "@views/*": ["src/views/*"],
+      "@hooks/*": ["src/hooks/*"]
     }
   }
 }
