@@ -18,6 +18,7 @@ export default function App() {
           "Kanit-Bold": require("./assets/fonts/kanit/Kanit-Bold.ttf"),
           "Kanit-Medium": require("./assets/fonts/kanit/Kanit-Medium.ttf"),
           "Kanit-Regular": require("./assets/fonts/kanit/Kanit-Regular.ttf"),
+          "Kanit-Light": require("./assets/fonts/kanit/Kanit-Light.ttf"),
           "Kanit-Thin": require("./assets/fonts/kanit/Kanit-Thin.ttf"),
         });
         setAppReady(true);
