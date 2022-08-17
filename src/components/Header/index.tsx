@@ -1,4 +1,5 @@
-import { HStack, Icon, IconButton } from "native-base";
+import { HStack, Icon } from "native-base";
+import { IconButton } from "@components/common";
 import React from "react";
 import {
   MaterialIcons,
@@ -9,13 +10,14 @@ import {
 
 const Header = () => {
   return (
-    <HStack justifyContent={"space-between"} alignItems={"center"} paddingY={1}>
+    <HStack
+      justifyContent={"space-between"}
+      alignItems={"center"}
+      paddingX={3}
+      paddingY={1}
+    >
       <IconButton
         icon={<Icon as={MaterialIcons} name="menu" color="black" size="xl" />}
-        borderRadius="full"
-        _pressed={{
-          bg: "gray.600:alpha.10",
-        }}
       />
 
       <HStack>
@@ -23,10 +25,6 @@ const Header = () => {
           icon={
             <Icon as={AntDesign} name="shoppingcart" color="black" size="xl" />
           }
-          borderRadius="full"
-          _pressed={{
-            bg: "gray.600:alpha.10",
-          }}
         />
         <IconButton
           icon={
@@ -37,19 +35,11 @@ const Header = () => {
               size="xl"
             />
           }
-          borderRadius="full"
-          _pressed={{
-            bg: "gray.600:alpha.10",
-          }}
         />
         <IconButton
           icon={
             <Icon as={FontAwesome} name="user-circle" color="black" size="xl" />
           }
-          borderRadius="full"
-          _pressed={{
-            bg: "gray.600:alpha.10",
-          }}
         />
       </HStack>
     </HStack>
