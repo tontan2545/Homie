@@ -12,9 +12,13 @@ const Home = () => {
     <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
       <Header />
       <Box height={3} />
-      <VStack paddingX={8} space={3}>
+      <VStack paddingX={8} space={5}>
         <SearchAdd />
-        <JobPhase />
+        <VStack space={10}>
+          <JobPhase phase={"DRAFT"} />
+          <JobPhase phase={"ONGOING"} />
+          <JobPhase phase={"COMPLETED"} />
+        </VStack>
       </VStack>
     </SafeAreaView>
   );
