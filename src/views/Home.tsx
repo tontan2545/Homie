@@ -9,7 +9,7 @@ import JobPhase from "@components/views/Home/JobPhase";
 
 const Home = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
       <Header />
       <Box height={3} />
       <VStack paddingX={8} space={3}>
