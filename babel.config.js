@@ -13,6 +13,7 @@ module.exports = function (api) {
             "@routes": ["./src/routes"],
             "@views": ["./src/views"],
             "@hooks": ["./src/hooks"],
+            "@customTypes": ["./src/types"],
           },
         },
       ],
