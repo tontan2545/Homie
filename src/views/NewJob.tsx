@@ -4,9 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import NewJobHeader from "@components/Header/NewJobHeader";
 import Stepper from "@components/views/NewJob/Stepper";
 
-type Props = {};
-
-const NewJob = (props: Props) => {
+const NewJob = () => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
       <NewJobHeader />
