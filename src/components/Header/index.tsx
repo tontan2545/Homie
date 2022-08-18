@@ -1,12 +1,7 @@
 import { HStack, Icon } from "native-base";
 import { IconButton } from "@components/common";
 import React from "react";
-import {
-  MaterialIcons,
-  Ionicons,
-  AntDesign,
-  FontAwesome,
-} from "@expo/vector-icons";
+import { Ionicons, AntDesign, FontAwesome } from "@expo/vector-icons";
 
 const Header = () => {
   return (
@@ -17,7 +12,7 @@ const Header = () => {
       paddingY={1}
     >
       <IconButton
-        icon={<Icon as={MaterialIcons} name="menu" color="black" size="xl" />}
+        icon={<Icon as={Ionicons} name="filter" color="black" size="xl" />}
       />
 
       <HStack>
