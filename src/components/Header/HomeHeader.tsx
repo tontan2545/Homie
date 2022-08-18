@@ -3,7 +3,7 @@ import { IconButton } from "@components/common";
 import React from "react";
 import { Ionicons, AntDesign, FontAwesome } from "@expo/vector-icons";
 
-const Header = () => {
+const HomeHeader = () => {
   return (
     <HStack
       justifyContent={"space-between"}
@@ -41,4 +41,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HomeHeader;
