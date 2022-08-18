@@ -2,7 +2,7 @@ import { Text, View } from "react-native";
 
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Header from "@components/Header";
+import HomeHeader from "@components/Header/HomeHeader";
 import { Box, ScrollView, VStack } from "native-base";
 import SearchAdd from "@components/views/Home/SearchAdd";
 import JobPhase from "@components/views/Home/JobPhase";
@@ -10,7 +10,7 @@ import JobPhase from "@components/views/Home/JobPhase";
 const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
-      <Header />
+      <HomeHeader />
       <ScrollView>
         <Box height={3} />
         <VStack paddingX={8} space={5}>
