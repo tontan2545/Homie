@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, FlatList, VStack } from "native-base";
+import { VStack } from "native-base";
 import Phase from "@customTypes/Phase";
 import PhaseTitle from "./PhaseTitle";
 import JobCard from "./JobCard";
@@ -15,11 +15,9 @@ const JobPhase = ({ phase }: Props) => {
     <VStack space={1}>
       <PhaseTitle phase={phase} />
       <VStack space={3}>
-        <FlatList
-          data={phaseJobs}
-          renderItem={(job) => <JobCard {...job.item} />}
-          ItemSeparatorComponent={() => <Box style={{ height: 15 }} />}
-        />
+        {phaseJobs.map((job, index) => (
+          <JobCard key={index} {...job} />
+        ))}
       </VStack>
     </VStack>
   );
