@@ -14,6 +14,7 @@ module.exports = function (api) {
             "@views": ["./src/views"],
             "@hooks": ["./src/hooks"],
             "@customTypes": ["./src/types"],
+            "@utils": ["./src/utils"],
           },
         },
       ],
