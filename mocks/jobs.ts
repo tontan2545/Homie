@@ -1,6 +1,6 @@
-import { Job } from "@customTypes/Job";
+import { JobDetails } from "@customTypes/JobDetails";
 
-export const MOCK_JOBS: Job[] = [
+export const MOCK_JOBS: JobDetails[] = [
   {
     phase: "ONGOING",
     title: "ซ่อมกระเบื้อง",
